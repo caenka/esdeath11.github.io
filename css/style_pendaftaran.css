@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url("../img/BANYUWANGI1-640x446.jpg");
+    width: 100%;
+    height: 720px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.black {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid green;
+    margin: 0;
+    background-color: rgba(0, 128, 0, 0.521);
+    position: relative;
+    top: 10%;
+    left: 35%;
+
+}
+.tittle{
+    color: white;
+    position: relative;
+    right: 0;
+}
+.tittle1pos{
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    right: 0;
+    left: 425px;
+    color: white;
+    
+}
+.tittle2{
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 120px;
+}
+.input1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+.input2{
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+.datelabel{
+    position: relative;
+    top: 0;
+    left: 23px;
+    color: white;
+}
+.input3{
+    position: relative;
+    top: 35px;
+    left: 135px;
+}
+.input4{
+    position: relative;
+    top: 140px;
+    left: 153px;
+
+}
+.backlink{
+    position: relative;
+    top: 100px;
+    right: 0;
+
+}
+.linka{
+    position: relative;
+    float: left;
+    left: 400px;
+}
+.linka a{
+    color: white;
+}
+.linka a:hover{
+    color: rgb(112, 112, 221);
+}
+input {
+    padding: 6px 4px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(16, 156, 21);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(87, 194, 87);
+}
+.linkb{
+    float: left;
+    position: relative;
+    left: 550px;
+}
+.linkb a{
+    color: white;
+}
+.linkb a:hover{
+    color: rgb(112, 112, 221);
+}
+
