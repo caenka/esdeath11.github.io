@@ -32,6 +32,7 @@
 
 }
 .tittle{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: white;
     position: relative;
     right: 0;
@@ -62,6 +63,13 @@
     top: 30px;
     left: 120px;
 }
+input[type=text],
+input[type=password],
+input[type=email]
+    {
+    margin-bottom: 10px;
+}
+
 .datelabel{
     position: relative;
     top: 0;
@@ -70,19 +78,29 @@
 }
 .input3{
     position: relative;
-    top: 35px;
+    top: 5%;
     left: 135px;
 }
 .input4{
     position: relative;
-    top: 140px;
-    left: 153px;
-
+    top: 7%;
+    left: 38%;
+}
+.input5{
+    color: white;
+    position: relative;
+    top: 5%;
+    left: 30%;
+}
+.tittle5{
+    position: relative;
+    left: 10%;
+    bottom: 0%; 
 }
 .backlink{
     position: relative;
-    top: 100px;
-    right: 0;
+    top: 12%;
+    right: 2%;
 
 }
 .linka{
@@ -132,3 +150,6 @@ button:hover{
     color: rgb(112, 112, 221);
 }
 
+br{
+    margin-bottom: 10px;
+}
