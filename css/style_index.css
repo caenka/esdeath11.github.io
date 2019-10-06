@@ -110,8 +110,61 @@ li a:hover {
     position: relative;
     left: 47%;
 }
-.image1{
+.boximage{
+    position: relative;
+    border: 1px solid black;
+    width: 99.8%;
+    height: 50%;
     margin: 0;
     position: absolute;
-    top: 25%;
+    top: 30%;
+    left: 0%;
+}
+.img1{
+    border: 1px solid black;
+    width: 17%;
+    height: 70%;
+    background-color: white;
+    position: relative;
+    top: 9%;
+    left: 15%;
+}
+.datebox1{
+    border: 1px solid black;
+    width: 99.5%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+}
+.img2{
+    border: 1px solid black;
+    width: 17%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: 41%;
+}
+.datebox2{
+    border: 1px solid black;
+    width: 99.5%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+}
+.img3{
+    border: 1px solid black;
+    width: 17%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 9%;
+    right: 15%;
+}
+.datebox3{
+    border: 1px solid black;
+    width: 99.5%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
 }
