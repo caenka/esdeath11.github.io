@@ -3,9 +3,9 @@
     padding: 0;
 }
 .background {
-    background-image: url("../img/pendaftaran.jpg");
+    background-image: url("../img/david-t-yxl_EEpNpDM-unsplash.jpg");
     width: 100%;
-    height: 720px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -22,7 +22,7 @@
 }
 .boxhijau{
     width: 400px;
-    height: 450px;
+    height: 300px;
     margin: 0;
     background-color: rgb(46,139,87);
     opacity: 0.7;
@@ -57,68 +57,39 @@
 }
 .input1{
     position: relative;
-    top: 20px;
-    left: 20px;
-}
-input::placeholder{
-    font-family: "Montserrat";
+    top: 25px;
+    left: 115px;
 }
 .input2{
     position: relative;
-    top: 25px;
-    left: 20px;
-}
-input[type=text],
-input[type=password],
-input[type=email]
-    {
-    margin-bottom: 10px;
-
-}
-input[type=date] {
-    font-family: "Montserrat";;
-}
-input:focus{
-    outline-color:rgb(173,255,47);
-}
-
-.datelabel{
-    position: relative;
-    top: 25;
-    left: 0px;
-    color: white;
-}
-.input3{
-    position: relative;
-    top: 25px;
-    left: 20px;
-    font-family: "Montserrat";
-    font-weight: 100;
-}
-.input4{
-    position: relative;
-    top: 10%;
-    left: 38%;
-}
-.input5{
-    color: white;
-    position: relative;
     top: 30px;
-    left: 20px;
-    font-family: "Montserrat";
-    font-weight: 100;
+    left: 35px;
 }
-.tittle5{
+.lupapw{
     position: relative;
-    left: 0px;
-    top: 0px; 
+    top: 45px;
+    left: 40px;
+}
+.lupapw a:hover{
+    color: white;
 }
 .backlink{
     position: relative;
     top: 12%;
     right: 2%;
     color: white;
-
+}
+input::placeholder{
+    font-family: "Montserrat";
+}
+input[type=text],
+input[type=password],
+input[type=email]
+    {
+    margin-bottom: 10px;
+}
+input:focus{
+    outline-color:rgb(173,255,47);
 }
 input {
     padding: 6px 4px;
@@ -148,14 +119,14 @@ button:hover{
 .linkb{
     float: left;
     position: relative;
-    top: 30px;
-    left: 580px;
+    top: 120px;
+    left: 80px;
     font-family: "Montserrat";
     font-weight:400;
 
 }
 .linkb a:hover{
-    color: rgb(46, 139, 87);
+    color: black;
 }
 
 br{
