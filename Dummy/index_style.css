@@ -1,0 +1,183 @@
+/* background */
+body{
+    margin: 0;
+    background-color: #799A78;
+    height: 3000px;
+    
+}
+/* navbar */
+.position{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 99;
+}
+.list1{
+    margin: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #263919;
+}
+li{
+    float: left;
+    position: relative;
+    left: 43%;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list2{
+    right: 4%;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    top: 0%;
+    background-color: #263919;
+}
+li a:hover {
+    background-color: #0af82eec;
+}
+/* content */
+.bodyimage {
+    background: url("../img/DSC_5042.JPG");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+.tittle1-pos{
+    position: relative;
+    top: 0.5%;
+}
+.tittle1{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    text-align: center;
+}
+.tittle1-2{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    text-align: center;
+}
+.content1{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.text2{
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* contentimg1 */
+
+.contentimg1{
+    position: absolute;
+    top: 75%;
+    border: 1px solid black;
+    width: 99.8%;
+    height: 50%;
+}
+.conimg1{
+    position: relative;
+    top: 15%;
+    left: 13.4%;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.img1{
+
+    width: 99.7%;
+    height: 200px;
+    background: url("../img/HOME/festival_1.jpg");
+    background-size: 100%;
+}
+.boxdate{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    width: 99.9%;
+}
+.conimg2{
+    position: absolute;
+    top: 9%;
+    left: 42.3%;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.img2{
+
+    width: 99.7%;
+    height: 200px;
+    background: url("../img/HOME/festival\ 2.jpg");
+    background-size: 100%;
+}
+.boxdate2{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    width: 99.9%;
+}
+.conimg3{
+    position: absolute;
+    top: 15%;
+    left: 70.3%;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+}
+.img3{
+
+    width: 99.7%;
+    height: 200px;
+    background: url("../img/HOME/festival\ 2.jpg");
+    background-size: 100%;
+}
+.boxdate3{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    width: 99.9%;
+}
+.more{
+    position: absolute;
+    bottom: 7%;
+    left: 47%;
+}
+.button{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+}
+button:active{
+    background-color: yellowgreen;
+}
+.style-button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
