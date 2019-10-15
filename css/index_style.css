@@ -1,5 +1,8 @@
-@media screen and (min-width: 1440px){
-    /* navbar */
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1024px){
     .position{
         position: fixed;
         margin: 0;
@@ -32,7 +35,7 @@
         margin-left: 3%;
     }
     .list1 > :nth-child(2){
-        margin-left: 32%;
+        margin-left: 19%;
     }
     .list1 > :nth-child(5){
         margin-right: auto;
@@ -53,7 +56,7 @@
         width: 100%;
     }
     h1{
-        font-size: 24pt;
+        font-size: 18pt;
     }
     .tittle1-pos{
         margin-bottom: 50px;
@@ -84,18 +87,25 @@
         height: 700px;
         width: 100%;
         display: flex;
+        justify-content: center;
         box-sizing: border-box;
         flex-direction: row;
         justify-content: space-around;
     }
 
     .conimg1{
-        flex-basis: 300px;
+        flex-basis: 250px;
         position: relative;
         border: 1px solid black;
-        height: 400px;
+        height: 325px;
         background-color: white;
         display: block;
+    }
+    h3{
+        font-size: 12pt;
+    }
+    .date-text{
+        font-size: 11pt;
     }
     .img1{
         width: 99.7%;
@@ -111,12 +121,6 @@
         bottom: 0;
         border: 1px solid black;
         width: 99.9%;
-    }
-    h3{
-        font-size: 18pt;
-    }
-    .date-text{
-        font-size: 14pt;
     }
     .style-button:active{
         background-color: yellowgreen;
@@ -155,6 +159,7 @@
         width: 100%;
         height: 700px;
         display: flex;
+        justify-content: center;
         box-sizing: border-box;
         flex-direction: row;
         justify-content: space-around;
@@ -193,6 +198,7 @@
         padding-bottom: 80px;
     }
     .box-content{
+        border: 1px solid black;
         padding-top: 90px;
         width: 100%;
         height: 700px;
@@ -244,7 +250,7 @@
     }
     .box-credit{
         width: 100%;
-        height: 600px;
+        height: 700px;
         display: flex;
         justify-content: center;
     }
