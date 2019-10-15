@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1440px){
+    .position{
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    .list1{
+        display: flex;
+        padding: 0;
+        background-color: #2e3f22;
+        list-style: none;
+    }
+    .imgNav{
+        width: 140px;
+        height: 50px;
+    }
+    .imgNav img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .list1 > :nth-child(1){
+        margin-left: 3%;
+    }
+    .list1 > :nth-child(2){
+        margin-left: 32%;
+    }
+    .list1 > :nth-child(5){
+        margin-right: auto;
+    }
+    li a:hover {
+        background-color: #0af82eec;
+    }
+
+    section.sect1{
+        overflow: hidden;
+        background-color: #799A78;
+        padding-top: 0;
+    }
+    .box-content1{
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 700px;
+        border: 1px solid black;
+        background: url("../img/FESTIVAL/back.jpg");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        background-size: 100% 100%;
+    }
+    .text{
+        margin-top: 4%;
+        width: 30%;
+        font-size: 24pt;
+        text-align: center;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    section.sect2{
+        overflow: hidden;
+        background-color: #799A78;
+        padding-top: 3%;
+    }
+    .box-content2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 3000px;
+        flex-direction: column;
+    }
+    .box-content2-1{
+        padding-top: 3%;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        height: 400px;
+        margin-left: 9.5%;
+    }
+    .box-img1{
+        border: 1px solid black;
+        width: 290px;
+        height: 350px;
+        background-color: white;
+    }
+    .box-img1-1{
+        border: 1px solid black;
+        width: 100%;
+        height: 76%;
+    }
+    .box-img1-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    section.credit{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #38553E;
+        padding-top: 0px;
+    }
+    .box-credit{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 400px;
+        height: 300px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+}
