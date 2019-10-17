@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1440px){
+    .position{
+        position: fixed;
+        margin: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    .list1{
+        display: flex;
+        padding: 0;
+        background-color: #2e3f22;
+        list-style: none;
+    }
+    .imgNav{
+        width: 140px;
+        height: 50px;
+    }
+    .imgNav img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .list1 > :nth-child(1){
+        margin-left: 3%;
+    }
+    .list1 > :nth-child(2){
+        margin-left: 32%;
+    }
+    .list1 > :nth-child(5){
+        margin-right: auto;
+    }
+    li a:hover {
+        background-color: #0af82eec;
+    }
+    section.sect1{
+        overflow: hidden;
+        background-color: #799A78;
+        padding-top: 0%;
+    }
+    .box-content1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+        flex-direction: column;
+        background: url("../img/BERITA/juliana-malta-Uy0Bq8vYjk4-unsplash.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .text1{
+        margin-left: 28%;
+        text-align: center;
+        width: 40%;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    section.sect2{
+        overflow: hidden;
+        background-color: #799A78;
+        padding-top: 2%;
+    }
+    .box-content2{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 800px;
+    }
+    .box-content2-news{
+        margin-left: 4%;
+        margin-right: 4%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 30%;
+        height: 700px;
+    }
+    .content-news{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        width: 100%;
+        height: 30%;
+    }
+    .img-content{
+        width: 30%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    .text-content{
+        width: 70%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    .text{
+        margin-top: 2%;
+        margin-left: 2%;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    section.credit{
+        display: flex;
+        overflow: hidden;
+        background-color: #38553E;
+        padding-bottom: 0;
+    }
+    .box-credit{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        
+    }
+    .logo{
+        position: relative;
+        top: 0%;
+        left: 41%;
+        width: 400px;
+        height: 300px;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .credit-text1{
+        position: relative;
+        top: 40%;
+        left: -16%;
+        text-align: center;
+        width: 30%;
+        height: 100px;
+        color: black;
+    }
+    .credit-text2{
+        position: relative;
+        top: 90%;
+        left: -8%;
+        height: 20px;
+        width: auto;
+    }
+}
