@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 768px){
     .position{
         position: fixed;
         margin: 0;
@@ -35,7 +35,7 @@
         margin-left: 3%;
     }
     .list1 > :nth-child(2){
-        margin-left: 32%;
+        margin-left: 29%;
     }
     .list1 > :nth-child(5){
         margin-right: auto;
@@ -62,9 +62,9 @@
         background-size: 100% 100%;
     }
     .text{
-        margin-top: 10%;
-        width: 30%;
-        font-size: 24pt;
+        margin-top: 13%;
+        width: 40%;
+        font-size: 18pt;
         font-family: "Roboto";
         font-style: italic;
         text-align: center;
@@ -83,6 +83,7 @@
         width: 100%;
         height: 2500px;
         flex-direction: column;
+
     }
     .box-content2-1{
         padding-top: 3%;
@@ -94,8 +95,8 @@
     }
     .box-img1{
         border: 1px solid black;
-        width: 290px;
-        height: 350px;
+        width: 200px;
+        height: 275px;
     }
     .box-img1-1{
         border: 1px solid black;
@@ -107,86 +108,62 @@
         height: 100%;
     }
     h3{
-        font-size: 12pt;
+        font-size: 9pt;
         text-align: center;
         color: #263919;
     }
     h4{
-        font-size: 9.5pt;
+        font-size: 7pt;
         text-align: justify;
         color: black;
         word-spacing: 4px;
     }
     .date-text{
-        font-size: 8pt;
+        font-size: 6pt;
         color: black;
         line-height: 2;
         text-align: right;
     }
     section.credit{
         display: flex;
+        justify-content: center;
         overflow: hidden;
         background-color: #38553E;
         padding-top: 0px;
     }
-   .box-credit{
-       width: 100%;
-       height: 700px;
-       display: flex;
-   }
-   .content-box-credit{
-       border: 1px solid black;
-       width: 950px;
-       height: 700px;
-   }
-   .logo-credit{
-       float: right;
-       margin-right: -16%;
-       border: 1px solid black;
-       height: 300px;
-       width: 300px;
-   }
-   .logo-credit img{
+    .box-credit{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 400px;
+        height: 300px;
+    }
+    .logo img{
         width: 100%;
         height: 100%;
-   }
-   .text-credit-1{
-       margin-top: 27%;
-       width: 400px;
-       height: 50px;
-       border: 1px solid black;
-   }
-   .text-credit-2{
-       color: black;
-   }
-   .box-contact-1{
-       margin-top: 17%;
-       display: flex;
-       justify-content: center;
-       margin-right: 13%;
-       border: 1px solid black;
-       width: 200px;
-       height: 200px;
-       float: right;
-   }
-   .copyright{
-       margin-left: -22%;
-       margin-top: 70.5%;
-       border: 1px solid black;
-       width: 400px;
-       height: 30px;
-   }
-   .text-copyright{
-       color: black;
-   }
-   .box-text-contact-1{
-       border: 1px solid black;
-       width: 140px;
-       height: 200px;
-   }
-   .email-text{
-       color: black;
-       font-size: 8pt;
-       text-align: left;
-   }
+    }
+    p{
+        font-size: 12pt;
+        color: black;
+        position: relative;
+        top: 50%;
+        left:-35%;
+        font-family: "Montserrat";
+    }
+    b{
+        font-size: 12pt;
+        color: black;
+        position: relative;
+        top: 90%;
+        font-family: "Montserrat";
+        font-weight: 500;
+        right:15%;
+    }
+    .more{
+        font-size: 12pt;
+        font-family: "Montserrat"
+    }
 }
