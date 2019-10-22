@@ -70,14 +70,19 @@
         margin-bottom: 50px;
     }
     .tittle1{
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: white;
         text-align: center;
+        font-size: 1rem;
+        color: white;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-style: normal;
     }
     .tittle1-2{
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
         color: white;
         text-align: center;
+        font-family: "Montserrat";
     }
     .content1{
         color: white;
@@ -109,11 +114,22 @@
         background-color: white;
         display: block;
     }
-    h3{
+    .text1{
         font-size: 12pt;
+        text-align: center;
+        color: #263919;
+    }
+    .detail1{
+        font-size: 9.5pt;
+        text-align: justify;
+        color: #757A8D;
+        word-spacing: 4px;
     }
     .date-text{
-        font-size: 10pt;
+        font-size: 8pt;
+        color: #757A8D;
+        line-height: 2;
+        text-align: right;
     }
     .img1{
         width: 99.7%;
@@ -136,7 +152,7 @@
     }
     
     .style-button{
-        background-color: #4CAF50;
+        background-color:#263919;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -147,6 +163,7 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 25px;
+        font-family: "Montserrat";
     }
     .button{
         float: right;
@@ -185,9 +202,21 @@
     }
     .tittle3{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
         color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-style: normal;
+    }
+    .txtwi{
+        text-align: center;
+        font-size: 10pt;
+        color: white;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-style: normal;
     }
     section.post3{
         overflow: hidden;
@@ -195,14 +224,19 @@
         padding-top: 100px;
     }
     .tittle4{
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: white;
         text-align: center;
+        font-size: 1rem;
+        color: white;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-style: normal;
         
     }
     .tittle4-2{
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
         color: white;
+        font-family: "Montserrat";
         text-align: center;
         padding-bottom: 80px;
     }
@@ -241,22 +275,18 @@
     .info-text{
         margin-left: 0;
     }
-    h3{
-        font-size: 13pt;
+    .text2{
+        font-size: 10pt;
 /*        text-align: center;*/
         color: black;
     }
-    h4{
-        font-size: 11pt;
-    }
     h5{
-        font-size: 13pt;
+        font-size: 9pt;
         color: black;
     }
     .date-text1{
-        font-size:12pt;
+        font-size:8pt;
         color: #DECFD6;
-        line-height: 2;
 /*        text-align: left;*/
     }
     section.credit{
