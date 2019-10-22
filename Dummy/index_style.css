@@ -99,7 +99,6 @@ section.post {
     flex-direction: row;
     justify-content: space-around;
 }
-
 .conimg1{
     flex-basis: 250px;
     position: relative;
