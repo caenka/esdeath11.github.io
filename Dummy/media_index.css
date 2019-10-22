@@ -38,7 +38,7 @@
         margin-right: auto;
     }
     li a:hover {
-        background-color: #0af82eec;
+        background-color: #7C9B58;
     }
     /* content */
     .bodyimage {
@@ -53,7 +53,15 @@
         width: 100%;
     }
     h1{
-        font-size: 24pt;
+        font-size: 30pt;
+        font-family: "Maiandra GD";
+        letter-spacing: 10px;
+    }
+    h2{
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: 15pt;
+        font-style: italic;
     }
     .tittle1-pos{
         margin-bottom: 50px;
@@ -113,10 +121,10 @@
         width: 99.9%;
     }
     h3{
-        font-size: 18pt;
+        font-size: 12pt;
     }
     .date-text{
-        font-size: 14pt;
+        font-size: 10pt;
     }
     .style-button:active{
         background-color: yellowgreen;
