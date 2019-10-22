@@ -59,24 +59,28 @@ h1{
     font-family: "Maiandra GD";
     letter-spacing: 10px;
 }
-/* h2{
+ .text1{
     font-family: "Roboto";
     font-weight: 100;
     font-size: 15pt;
     font-style: italic;
-} */
+} 
 .tittle1-pos{
     margin-bottom: 50px;
 }
 .tittle1{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
     color: white;
     text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: "Montserrat";
 }
 .tittle1-2{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
     color: white;
     text-align: center;
+    font-family: "Montserrat";
 }
 .content1{
     color: white;
@@ -108,11 +112,23 @@ section.post {
     background-color: white;
     display: block;
 }
-h3{
-    font-size: 12pt;
+.judul{
+    font-size: 13pt;
+    text-align: center;
+    color: #263919;
+}
+.detail1{
+    font-size: 10pt;
+    text-align: justify;
+    color: #757A8D;
+    word-spacing: 1px;
+    letter-spacing:1px;
 }
 .date-text{
     font-size: 10pt;
+    color: #757A8D;
+    line-height: 2;
+    text-align: right;
 }
 .img1{
     width: 99.7%;
@@ -135,7 +151,7 @@ h3{
 }
 
 .style-button{
-    background-color: #4CAF50;
+    background-color: #263919;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -146,6 +162,7 @@ h3{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+    font-family: "Montserrat";
 }
 .button{
     float: right;
@@ -184,9 +201,17 @@ section.post2{
 }
 .tittle3{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Montserrat";
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+.textwi{
+    text-align: center;
+    font-size: 10pt;
+    color: white;
+    font-family: "Montserrat";
+
 }
 section.post3{
     overflow: hidden;
@@ -194,15 +219,18 @@ section.post3{
     padding-top: 100px;
 }
 .tittle4{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
     color: white;
     text-align: center;
+    font-size: 1rem;
+    font-family: "Montserrat";
     
 }
 .tittle4-2{
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
     color: white;
     text-align: center;
+    font-family: "Montserrat";
     padding-bottom: 80px;
 }
 .box-content2{
@@ -241,18 +269,20 @@ section.post3{
 .info-text{
     margin-left: 0;
 }
-.text-content-3{
+.text-content-2{
     font-size: 13pt;
-/*        text-align: center;*/
+    text-align: center;
     color: black;
 }
 .text-date-2{
     font-size: 12pt;
     height: 20px;
+    color: #decfd6;
 }
 .linked{
     color: #000;
     margin-top: 5px;
+    font-size: 10pt;
 }
 section.credit{
     display: flex;
