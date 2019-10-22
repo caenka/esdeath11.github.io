@@ -275,6 +275,17 @@ section.credit{
 }
 
 @media screen and (max-width: 1024px){
+    .text-content{
+        width: 700px;
+        margin-left: 200px;
+        font-size: 15pt;
+    }
+    .input-komentar{
+        width: 600px;
+    }
+    .submit{
+        margin-left: 800px;
+    }
     .copyright{
         margin-top: 468px;
     }
@@ -296,6 +307,21 @@ section.credit{
     }
 }
 @media screen and (max-width: 768px){
+    section.sect2{
+        margin-left: -70px;
+    }
+    .text-content{
+        width: 500px;
+    }
+    .input-komentar{
+        width: 500px;
+    }
+    .label{
+        font-size: 12pt;
+    }
+    .submit{
+        margin-left: 600px;
+    }
     .logo-credit{
         height: 250px;
         width: 250px;
