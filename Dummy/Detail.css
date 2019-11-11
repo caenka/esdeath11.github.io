@@ -78,9 +78,12 @@ section.sect2{
     border: 1px solid black;
 }
 .intro-content{
-    font-size: 40pt;
+/*    font-size: 40pt;*/
     margin-top: 50px;
     margin-left: 200px;
+    color: #263919;
+    font-family: "Montserrat";
+    font-size: 30px;
 }
 .date-content{
     margin-top: 20px;
@@ -91,13 +94,16 @@ section.sect2{
     margin-top: 40px;
     width: 1000px;
     text-align: justify;
-    margin-left: 450px;
+    margin-left: 50px;
     color: white;
+    font-size: 20px;
 }
 .label-komentar{
     font-size: 30pt;
     margin-top: 180px;
     margin-left: 200px;
+    color: #263919;
+    font-family: "Montserrat";
 }
 .input-komentar{
     margin-top: 60px;
@@ -124,8 +130,9 @@ section.sect2{
     
 }
 .label{
-    font-size: 20pt;
+    font-size: 14pt;
     color: white;
+    font-family: "Montserrat";
 }
 .submit{
     width: 100px;
@@ -243,6 +250,9 @@ section.credit{
 @media screen and (max-width: 768px){
     section.sect2{
         margin-left: -70px;
+    }
+    .content-box1{
+    height: 2200px;
     }
     .text-content{
         width: 500px;
